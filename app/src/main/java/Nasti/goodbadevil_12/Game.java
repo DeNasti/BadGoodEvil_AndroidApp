@@ -1,4 +1,4 @@
-package ibiondissimiprogrammatori.goodbadevil_12;
+package Nasti.goodbadevil_12;
 
 import android.graphics.Bitmap;
 import android.graphics.Point;

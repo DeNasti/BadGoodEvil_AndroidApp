@@ -1,4 +1,4 @@
-package ibiondissimiprogrammatori.goodbadevil_12;
+package Nasti.goodbadevil_12;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -75,7 +75,6 @@ public class MyTurn extends AsyncTask<Void, Void, Void> implements Thread.Uncaug
 	}
 
 	private void fightTurn(String state) {
-		// 	Image image;
 		if (state.startsWith("FIGHT")) {
 
 			try {

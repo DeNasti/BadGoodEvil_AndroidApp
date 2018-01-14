@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ibiondissimiprogrammatori.goodbadevil_12">
+    package="Nasti.goodbadevil_12">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name=".MyAppliccation"
+        android:name="Nasti.goodbadevil_12.MyAppliccation"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +16,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name="Nasti.goodbadevil_12.LoginActivity"
             android:label="@string/app_name">
             android:windowSoftInputMode="stateHidden"
             <intent-filter>
@@ -26,15 +26,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Game"
+            android:name="Nasti.goodbadevil_12.Game"
             android:label="@string/title_activity_game"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".figth_activity"
+            android:name="Nasti.goodbadevil_12.figth_activity"
             android:label="@string/title_activity_figth_activity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".Result"
+            android:name="Nasti.goodbadevil_12.Result"
             android:label="@string/title_activity_result"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>

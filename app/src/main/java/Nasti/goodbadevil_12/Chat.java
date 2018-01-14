@@ -1,4 +1,4 @@
-package ibiondissimiprogrammatori.goodbadevil_12;
+package Nasti.goodbadevil_12;
 
 import android.os.Handler;
 import android.os.Looper;
@@ -55,9 +55,6 @@ public class Chat  implements  Runnable, Thread.UncaughtExceptionHandler {
             socket = new Socket(ip, 9001);
             socket.setTcpNoDelay(true);
 
-            //if(socket.isInputShutdown())
-              //  return;
-
             in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             out = new PrintWriter(socket.getOutputStream(), true);
 
@@ -80,8 +77,6 @@ public class Chat  implements  Runnable, Thread.UncaughtExceptionHandler {
                         Runnable myRun = new Runnable() {  @Override public void run() { msgList.setAdapter(adapter);   }};
                         mainHandler.post(myRun);
                     }
-                //if(socket.isInputShutdown())
-                //  return;
 
                     messages.add(line.substring(8)+"");
                 Runnable myRun2 = new Runnable() {  @Override public void run() {adapter.notifyDataSetChanged();}};

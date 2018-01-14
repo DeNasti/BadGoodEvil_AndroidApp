@@ -1,4 +1,4 @@
-package ibiondissimiprogrammatori.goodbadevil_12;
+package Nasti.goodbadevil_12;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("ibiondissimiprogrammatori.goodbadevil_12", appContext.getPackageName());
+        assertEquals("Nasti.goodbadevil_12", appContext.getPackageName());
     }
 }

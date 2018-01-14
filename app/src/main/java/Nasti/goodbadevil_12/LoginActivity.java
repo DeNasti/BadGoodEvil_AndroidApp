@@ -1,4 +1,4 @@
-package ibiondissimiprogrammatori.goodbadevil_12;
+package Nasti.goodbadevil_12;
 
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.ViewFlipper;
 
 import java.io.IOException;
@@ -23,9 +22,7 @@ public class LoginActivity extends AppCompatActivity implements Observer, Thread
     private EditText ipView;
     private Player player = new Player();
     private Connection connection;
-  //  private String ip = "192.168.1.88";
-    private String ip = "192.168.1.79";
-    //private String ip = "192.168.43.163";
+    private String ip = "127.0.0.1";
     private String[] RandomNames = {"Scar"," Walker", "Django", "Backfire","Bullseye", "Loner", "Eagle", "Spenzow", "Talon", "Brew", "Trivet", "Gonzalo", "Rodrigo", "Caruso","Capone", "Mastio" };
     private  Button whitesButton;
     private  Button blacksButton;

@@ -1,15 +1,13 @@
-package ibiondissimiprogrammatori.goodbadevil_12;
+package Nasti.goodbadevil_12;
 
 import android.util.Log;
-import android.widget.EditText;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.net.Socket;
 import java.io.PrintWriter;
-import java.net.URL;
+
 import android.os.AsyncTask;
 
 public class Connection extends AsyncTask<String, Void, String> implements Thread.UncaughtExceptionHandler{
@@ -60,5 +58,4 @@ public class Connection extends AsyncTask<String, Void, String> implements Threa
         Log.d("Game", "throwed unchaught exception on thread  "+t);
         e.printStackTrace();
     }
-
 }

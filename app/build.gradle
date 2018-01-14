@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.3"
     defaultConfig {
-        applicationId "ibiondissimiprogrammatori.goodbadevil_12"
+        applicationId "Nasti.goodbadevil_12"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1

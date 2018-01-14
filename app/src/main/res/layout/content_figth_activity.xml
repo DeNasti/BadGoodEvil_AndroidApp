@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:weightSum="4"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="ibiondissimiprogrammatori.goodbadevil_12.figth_activity"
+    tools:context="Nasti.goodbadevil_12.figth_activity"
     tools:showIn="@layout/activity_figth_activity">
 
     <TextView

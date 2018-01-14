@@ -1,4 +1,4 @@
-package ibiondissimiprogrammatori.goodbadevil_12;
+package Nasti.goodbadevil_12;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -22,6 +22,7 @@ public class figth_activity extends AppCompatActivity implements Thread.Uncaught
     private int actualAmmo = 1;
     private int maxAmmo;
     private static Player player;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
