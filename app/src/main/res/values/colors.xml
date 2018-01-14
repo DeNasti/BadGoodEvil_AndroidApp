@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#893331</color>
+    <color name="colorPrimaryDark">#7a2b29</color>
+    <color name="colorAccent">#a77c7b</color>
+    <color name="colorChat">#bc9d9c</color>
+    <color name="mapBack">#ffd37f</color>
+    <color name="color1">#f8b195</color>
+    <color name="color2">#f67280</color>
+    <color name="color3">#c06c84</color>
+    <color name="color4">#6c5b7b</color>
+    <color name="color4B">#8a5d89</color>
+    <color name="color5">#355c7d</color>
+
+
+    <item name="visible" type="id"/>
+        <item name="masked" type="id"/>
+    <color name="button2">#9e774d</color>
+
+</resources>

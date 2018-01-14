@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color1"
+    android:orientation="vertical"
+    android:weightSum="4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ibiondissimiprogrammatori.goodbadevil_12.figth_activity"
+    tools:showIn="@layout/activity_figth_activity">
+
+    <TextView
+        android:id="@+id/enemyInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/vs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill_horizontal"
+        android:layout_weight="1"
+        android:background="@color/color2"
+        android:gravity="center"
+        android:text="VS"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/myInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/color3"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="fill"
+        android:layout_weight="1"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="2"
+
+        >
+
+        <TextView
+            android:id="@+id/ammos"
+            android:layout_width="209dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="fill"
+            android:layout_row="0"
+            android:layout_rowSpan="2"
+            android:background="@color/color4B"
+            android:gravity="center"
+            android:text="VS"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="50dp" />
+
+
+        <Button
+            android:id="@+id/plus"
+
+            android:layout_height="68dp"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_row="0"
+            android:background="@color/color4"
+            android:text="@string/plus" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_height="73dp"
+            android:layout_column="1"
+            android:layout_gravity="fill"
+            android:layout_row="1"
+            android:background="@color/color4"
+            android:text="@string/minus" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_column="2"
+            android:layout_gravity="fill"
+            android:layout_row="0"
+            android:layout_rowSpan="2"
+            android:background="@color/color5"
+            android:text="@string/fight" />
+
+    </GridLayout>
+
+</LinearLayout>

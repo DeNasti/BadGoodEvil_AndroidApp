@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ibiondissimiprogrammatori.goodbadevil_12.LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+
+    <Button
+        android:id="@+id/whites"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+
+        android:text="Button" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <Button
+        android:id="@+id/blacks"
+        android:layout_width="370dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:text="Button" />
+
+</LinearLayout>

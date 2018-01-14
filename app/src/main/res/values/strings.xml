@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">GoodBad_2.0</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_username">Username</string>
+    <string name="action_log_in">Log in</string>
+    <string name="action_random_id">get a random username</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">username already taken</string>
+    <string name="needed_username">This field is required</string>
+    <string name="enter_id">Enter your username</string>
+    <string name="title_activity_team_choose">TeamChoose</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_figth_activity">figth_activity</string>
+    <string name="plus">plus</string>
+    <string name="minus">minus</string>
+    <string name="fight">fight</string>
+    <string name="title_activity_result">Result</string>
+
+</resources>

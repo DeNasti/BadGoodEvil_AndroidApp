@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:id="@+id/content_game"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/main_game"/>
+        <include layout="@layout/chat"/>
+        <include layout="@layout/move_buttons"/>
+
+    </ViewFlipper>
